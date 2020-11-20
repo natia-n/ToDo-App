@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(157, 219, 238);
+}
+
+.input-div{      
+    background-color: rgb(157, 219, 238);
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: rgb(109, 110, 110);
+}
+
+.input-div input{ 
+border-bottom: 1px outset;
+}
+
+.new-tasks input:hover { 
+   cursor: pointer;
+}
+
+.input-div li{ 
+    list-style-type: none;
+    font-size: 23px;
+    background-color: floralwhite;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    }
+
+.input-div li span{ 
+   padding: 10px;
+}
+
+.input-text {    
+    padding: 15px;
+    border: 0;    
+    background-color: rgb(157, 219, 238);    
+    font-size: 20px;
+    width: 100%;
+    color: rgb(109, 110, 110);
+}
